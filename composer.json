@@ -1,5 +1,5 @@
 {
-	"name": "Davicio/framework",
+	"name": "Davicio/myFramework",
 	"description": "the Davicio Framework",
 	"keywords": ["framework", "davicio"],
 	"license": "MIT",
@@ -10,6 +10,7 @@
 		}
 	],
 	"require": {
+		"php": ">=5.4.0",
 		"pimple/pimple": "2.0.*"
 	},
 	"autoload": {
