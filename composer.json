@@ -1,0 +1,21 @@
+{
+	"name": "Davicio/framework",
+	"description": "the Davicio Framework",
+	"keywords": ["framework", "davicio"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Davicio Code",
+			"email": "davicio.eu@gmail.com"
+		}
+	],
+	"require": {
+		"pimple/pimple": "2.0.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Davicio\\": "src"
+		}
+	}
+
+}
